@@ -7,7 +7,7 @@ app.listen(PORT, ()=>{
 })
 
 app.get('/', (req, res)=>{
-    console.log('This Is My API running');
+    res.send('This Is My API running');
 })
 
 module.exports = app;
